@@ -24,7 +24,7 @@
     "auth.login.invalidHomeserverError": "On dirait bien que ce n’est pas un serveur d’accueil Matrix",
     "messages.composer.placeholder": "Saisissez un message…",
     "messages.content.groupTyping": "{{user1}} et {{others}} autres sont en train d’écrire…",
-    "messages.content.typing": "{{name}} est en train d’écrire...",
+    "messages.content.typing": "{{name}} est en train d’écrire…",
     "messages.content.contentNotUploaded": "Le fichier n’a pas pu être envoyé",
     "messages.content.imageSent": "{{sender}} a envoyé une image",
     "messages.content.memberInvited": "{{sender}}a invité {{user}} à rejoindre la discussion",
