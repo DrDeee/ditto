@@ -1,7 +1,7 @@
 import {createStackNavigator} from '@react-navigation/stack';
 import {matrix} from '@rn-matrix/core';
 import {useObservableState} from 'observable-hooks';
-import React, {useContext} from 'react';
+import React from 'react';
 import {ActivityIndicator, Pressable, View} from 'react-native';
 
 import {Avatar, Icon, Layout, Text, useTheme} from '@ui-kitten/components';
@@ -16,7 +16,9 @@ import LightboxScreen from './scenes/chat/LightboxScreen';
 import NewChatScreen from './scenes/newChat/NewChatScreen';
 import Spacing from '../shared/styles/Spacing';
 import ChatSettingsScreen from './scenes/chatSettings/ChatSettingsScreen';
+import LanguageSelectScreen from './scenes/settings/LanguageSelectScreen';
 import ThemeType from '../shared/themes/themeType';
+import i18n from '../shared/i18n';
 
 enableScreens();
 
@@ -100,7 +102,7 @@ function ChatStack({navigation}) {
       <Stack.Screen
         name="ChatList"
         options={{
-          title: 'Chats',
+          title: i18n.t('home:title'),
           headerStyle: {
             backgroundColor: theme['background-basic-color-4'],
           },
@@ -199,7 +201,7 @@ function ChatStack({navigation}) {
 }
 
 function SettingsStack() {
-  const theme = useTheme();
+  const theme: ThemeType = useTheme();
   return (
     <Stack.Navigator headerMode="screen">
       <Stack.Screen
@@ -229,6 +231,20 @@ function SettingsStack() {
           ),
         })}
         component={SettingsScreen}
+      />
+      <Stack.Screen
+        name="LanguageSelect"
+        options={({navigation}) => ({
+          title: i18n.t('settings:chooseLanguage'),
+          headerTintColor: theme['text-basic-color'],
+          headerStyle: {
+            backgroundColor: theme['background-basic-color-5'],
+            borderBottomWidth: 0,
+            elevation: 0,
+            shadowColor: 'transparent',
+          },
+        })}
+        component={LanguageSelectScreen}
       />
     </Stack.Navigator>
   );
