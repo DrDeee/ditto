@@ -30,11 +30,11 @@
     },
     "messages": {
         "composer": {
-            "placeholder": "Tipp eine Nachricht ein…"
+            "placeholder": "Schreibe eine Nachricht…"
         },
         "content": {
             "groupTyping": "{{user1}} und {{others}} andere tippen gerade…",
-            "typing": "{{name}} tippt gerade…",
+            "typing": "{{name}} tippt…",
             "contentNotUploaded": "Die Datei könnte nicht hochgeladen werden",
             "imageSent": "{{sender}} hat ein Bild geschickt",
             "memberInvited": "{{sender}} hat {{user}} zum Chat eingeladen",
@@ -75,7 +75,18 @@
             "requestFeatureLinkLabel": "Erweiterung anfordern",
             "reportProblemLinkLabel": "Fehler melden"
         },
-        "logoutButtonLabel": "Abmelden"
+        "logoutButtonLabel": "Abmelden",
+        "privacy": {
+            "errorReportingDesc": "Aktivieren, um Fehlermeldungen an die Entwicklerin zu schicken",
+            "errorReporting": "Fehler melden",
+            "title": "Datenschutz"
+        },
+        "appearance": {
+            "language": "Sprache",
+            "darkMode": "Dunkelmodus",
+            "title": "Aussehen"
+        },
+        "chooseLanguage": "Sprache wählen"
     },
     "newChat": {
         "title": "Neuer Chat",
@@ -86,7 +97,7 @@
         },
         "details": {
             "title": "Chat Einzelheiten",
-            "chatNameInputLabel": "",
+            "chatNameInputLabel": "Chat-Name (optional)",
             "chatNameInputPlaceholder": "z.B. Mein krasses Chatroom",
             "privateTitle": "Privat",
             "privateDescription": "Ein privater Chat darf nur auf Einladung betreten werden.",
@@ -100,6 +111,7 @@
         },
         "banner": {
             "syncing": "Synchronisieren…"
-        }
+        },
+        "title": "Chats"
     }
 }
