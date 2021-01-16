@@ -1,1 +1,114 @@
-{}
+{
+    "home": {
+        "tab": {
+            "groups": "Grupper",
+            "messages": "Meddelanden"
+        },
+        "title": "Chattar"
+    },
+    "newChat": {
+        "details": {
+            "createChatButtonLabel": "Skapa chatt",
+            "privateDescription": "En privat chatt är bara öppen för de du bjuder in.",
+            "privateTitle": "Privat",
+            "chatNameInputPlaceholder": "T.ex. Mitt fantastiska rum",
+            "chatNameInputLabel": "Chattnamn (valfritt)",
+            "title": "Chattdetaljer"
+        },
+        "userSearch": {
+            "usersExcessiveNotice": "Tyvärr kan du bara ange maximalt 10 användare",
+            "userInvalidNotice": "Vänligen ange en giltig användare",
+            "usersInputPlaceholder": "Vem vill du chatta med?"
+        },
+        "title": "Ny chatt"
+    },
+    "settings": {
+        "logoutButtonLabel": "Logga ut",
+        "links": {
+            "reportProblemLinkLabel": "Rapportera ett problem",
+            "requestFeatureLinkLabel": "Begär en funktion",
+            "privacyPolicyLinkLabel": "Sekretesspolicy",
+            "websiteLinkLabel": "Webbsida",
+            "title": "Länkar"
+        },
+        "privacy": {
+            "errorReportingDesc": "Aktivera för att skicka buggrapporter till utvecklaren",
+            "errorReporting": "Felrapportering",
+            "title": "Sekretess"
+        },
+        "appearance": {
+            "language": "Språk",
+            "darkMode": "Mörkt läge",
+            "title": "Utseende"
+        },
+        "versionLabel": "{{app}}-version",
+        "androidOnlyDescription": "Endast Android (för tillfället!)",
+        "notificationsEnabledLabel": "Aktivera aviseringar",
+        "displayNameInputLabel": "Visningsnamn",
+        "displayNameInputPlaceholder": "Sätt visningsnamn",
+        "title": "Inställningar",
+        "chooseLanguage": "Välj språk",
+        "chooseAvatarLabel": "Välj avatar"
+    },
+    "messages": {
+        "content": {
+            "thirdPartyInvite": "{{sender}} skickade en tredjepartsinbjudan",
+            "stickersNotSupport": "Ditto stöder inte dekaler än",
+            "eventRedacted": "Den här händelsen har dolts",
+            "typeNotSupport": "Ditto stöder inte typen \"{{type}}\" än",
+            "videoFilesNotSupport": "Ditto stöder inte videofiler än",
+            "audioNotSupport": "Ditto stöder inte ljudfiler än",
+            "fileSharingNotSupport": "Ditto stöder inte fildelning än",
+            "locationSharingNotSupport": "Ditto stöder inte positionsdelning än",
+            "encryptNotSupport": "Ditto stöder inte krypterade meddelanden än",
+            "chatSettingsChanged": "{{sender}} ändrade chattens inställningar",
+            "chatDescriptionChanged": "{{sender}} ändrade chattens beskrivning",
+            "chatAvatarChanged": "{{sender}} bytte chattens avatar",
+            "chatNameChanged": "{{sender}} bytte chattens man till \"{{name}}\"",
+            "chatCreated": "{{sender}} skapade chatten\nHurra!",
+            "memberDisplayNameChanged": "{{prevSender}} bytte sitt namn till {{newSender}}",
+            "memberAvatarChanged": "{{sender}} bytte sin avatar",
+            "memberAvatarRemoved": "{{sender}} tog bort sin avatar",
+            "membershipNotSupport": "Ditto stöder inte medlemskapet \"{{membership}}\" än",
+            "memberLeft": "{{sender}} lämnade chatten",
+            "memberJoined": "{{sender}} gick med i chatten",
+            "memberInvited": "{{sender}} bjöd in {{user}} att gå med i chatten",
+            "imageSent": "{{sender}} skickade en bild",
+            "contentNotUploaded": "Filen kunde inte laddas upp",
+            "typing": "{{name}} skriver…",
+            "groupTyping": "{{user1}} och {{others}} till skriver…"
+        },
+        "composer": {
+            "placeholder": "Skriv ett meddelande…"
+        }
+    },
+    "auth": {
+        "login": {
+            "invalidHomeserverError": "Det här verkar inte vara en Matrix-hemserver",
+            "unknownTokenError": "Denna token är inte längre giltig. Vi måste ha kopplats bort.",
+            "noStoredCredentialsError": "Ett oförväntat fel har inträffat. Vänligen försök igen",
+            "invalidUsernameError": "Ett Matrix-användar-ID kan bara innehålla ett kolon (:)",
+            "noResponseError": "Hemservern som angavs är inte en Matrixhemserver eller så är den onåbar",
+            "unknownError": "Ett okänt fel inträffade med hemservern",
+            "limitExceededError": "För många begäran. Försök igen om några minuter.",
+            "userDeactivatedError": "Den har användaren har inaktiverats. Vänligen kontakta din hemserver",
+            "forbiddenError": "Fel användarnamn/lösenord eller hemserver",
+            "somethingWrongError": "Det verkar som att nåt gick fel: \n\n{{errorText}}\n\n Försök igen!",
+            "loginButtonLabel": "Logga in",
+            "advancedLabel": "Avancerat",
+            "basicLabel": "Grundläggande",
+            "homeserverInputPlaceholder": "Hemserver",
+            "homeserverInputLabel": "Hemserver",
+            "passwordInputPlaceholder": "Shh berätta inte",
+            "passwordInputLabel": "Lösenord",
+            "usernameOrMatrixIdInputPlaceholder": "Vem är du?",
+            "usernameOrMatrixIdInputLabel": "Användarnamn eller Matrix-ID",
+            "title": "Välkommen tillbaka!",
+            "missingPasswordError": "Lösenord saknas",
+            "missingUsernameError": "Användarnamn saknas"
+        },
+        "landing": {
+            "loginButtonLabel": "Logga in"
+        }
+    }
+}
