@@ -1,1 +1,20 @@
-{}
+{
+    "auth": {
+        "login": {
+            "advancedLabel": "Napredna",
+            "basicLabel": "Osnovni, temeljni",
+            "homeserverInputPlaceholder": "Kućni poslužitelj",
+            "homeserverInputLabel": "Kućni poslužitelj",
+            "passwordInputPlaceholder": "Pst, nemoj reći",
+            "passwordInputLabel": "Lozinka",
+            "usernameOrMatrixIdInputPlaceholder": "Tko se ti?",
+            "usernameOrMatrixIdInputLabel": "Korisničko ime ili ID Matrix",
+            "title": "Dobrodošao natrag!",
+            "missingPasswordError": "Nedostaje lozinka",
+            "missingUsernameError": "Nedostaje korisničko ime"
+        },
+        "landing": {
+            "loginButtonLabel": "Prijaviti se"
+        }
+    }
+}
