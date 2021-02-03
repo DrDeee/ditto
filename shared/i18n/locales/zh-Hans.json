@@ -23,17 +23,17 @@
             "unknownError": "服务器出现了未知错误",
             "noResponseError": "您输入的可能不是 Matrix 服务器，也可能无法访问该服务器",
             "invalidUsernameError": "matrix 用户 id 里只能出现一个冒号（:）",
-            "noStoredCredentialsError": "发生意外的错误，请再试一次。",
+            "noStoredCredentialsError": "发生意外的错误。请再试一次",
             "unknownTokenError": "令牌失效了，我们已经断开连接了。",
             "invalidHomeserverError": "这似乎不是一个 matrix 服务器"
         }
     },
     "messages": {
         "composer": {
-            "placeholder": "输入消息…"
+            "placeholder": "输入一条消息…"
         },
         "content": {
-            "groupTyping": "{{length}} 位用户正在输入…",
+            "groupTyping": "{{user1}}和其他 {{others}} 位用户正在输入…",
             "typing": "{{name}} 正在输入…",
             "contentNotUploaded": "无法上传该文件",
             "imageSent": "{{sender}} 发送了一张图片",
@@ -89,7 +89,7 @@
             "chatNameInputLabel": "聊天室名字（可选）",
             "chatNameInputPlaceholder": "例如：我的聊天室",
             "privateTitle": "隐私",
-            "privateDescription": "私人的聊天室仅对您邀请的用户开放",
+            "privateDescription": "私人的聊天仅对您邀请的用户开放。",
             "createChatButtonLabel": "创建聊天"
         }
     },
@@ -97,9 +97,6 @@
         "tab": {
             "messages": "消息",
             "groups": "群聊"
-        },
-        "banner": {
-            "syncing": "正在同步…"
         }
     }
 }

@@ -17,15 +17,15 @@
             "advancedLabel": "Geavanceerd",
             "loginButtonLabel": "Inloggen",
             "somethingWrongError": "Het lijkt er op dat er iets verkeerd is gegaan: \n\n{{errorText}}\n\n Probeer het nogmaals!",
-            "forbiddenError": "Verkeerde gebruikersnaam/wachtwoord of thuisserver",
-            "userDeactivatedError": "Deze gebruiker is niet actief. Neem contact op met je thuisserver",
+            "forbiddenError": "Verkeerde gebruikersnaam/wachtwoord of homeserver",
+            "userDeactivatedError": "Deze gebruiker is niet actief. Neem contact op met je homeserver",
             "limitExceededError": "Te veel verzoeken. Probeer het over enkele minuten nogmaals..",
-            "unknownError": "Er is een onbekende fout opgetreden met de thuisserver",
-            "noResponseError": "De thuisserver die is opgegeven is geen Matrix thuisserver, of hij is onbereikbaar",
+            "unknownError": "Er is een onbekende fout opgetreden met de homeserver",
+            "noResponseError": "De thuisserver die is opgegeven is geen Matrix-homeserver, of hij is onbereikbaar",
             "invalidUsernameError": "Er kan slechts één dubbele punt (:) worden gebruikt in een matrix gebruikers id",
             "noStoredCredentialsError": "Er is een onverwachte fout opgetreden. Probeer het nogmaals",
             "unknownTokenError": "De token is niet langer valide. De verbinding is waarschijnlijk onderbroken.",
-            "invalidHomeserverError": "Dit lijkt niet een matrix thuisserver te zijn"
+            "invalidHomeserverError": "Dit lijkt niet een Matrix-homeserver te zijn"
         }
     },
     "messages": {
@@ -75,7 +75,18 @@
             "requestFeatureLinkLabel": "Verzoek een mogelijkheid",
             "reportProblemLinkLabel": "Rapporteer een probleem"
         },
-        "logoutButtonLabel": "Uitloggen"
+        "logoutButtonLabel": "Uitloggen",
+        "privacy": {
+            "errorReportingDesc": "Zet aan om foutrapporten naar de ontwikkelaar te sturen",
+            "errorReporting": "Foutrapportage",
+            "title": "Privacy"
+        },
+        "appearance": {
+            "language": "Taal",
+            "darkMode": "Donkere modus",
+            "title": "Uiterlijk"
+        },
+        "chooseLanguage": "Kies taal"
     },
     "newChat": {
         "title": "Nieuwe chat",
@@ -98,8 +109,6 @@
             "messages": "Berichten",
             "groups": "Groepen"
         },
-        "banner": {
-            "syncing": "Synchroniseren…"
-        }
+        "title": "Chats"
     }
 }
