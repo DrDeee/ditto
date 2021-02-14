@@ -18,7 +18,7 @@
             "loginButtonLabel": "Einmelden",
             "somethingWrongError": "Etwas ist schief gelaufen: \n\n{{errorText}}\n\n Probier es nochmal!",
             "forbiddenError": "Benutzername/Passwort oder Heimserver falsch",
-            "userDeactivatedError": "Dieser Nutzer wurde deaktiviert. Bitte deinen Heimserver kontaktieren",
+            "userDeactivatedError": "Diese:r Nutzer:in wurde deaktiviert. Bitte deinen Heimserver kontaktieren",
             "limitExceededError": "Zu viele Abfragen. Warte einige Minuten vor dem nächsten Versuch.",
             "unknownError": "Ein unbekannter Fehler ist auf den Heimserver aufgetreten",
             "noResponseError": "Der angegebene Heimserver ist entweder kein Matrix Heimserver oder gerade nicht erreichbar",
@@ -92,8 +92,8 @@
         "title": "Neuer Chat",
         "userSearch": {
             "usersInputPlaceholder": "Mit wem willst du plaudern?",
-            "userInvalidNotice": "Gib einen gültigen Nutzer ein",
-            "usersExcessiveNotice": "Tut uns Leid, aber die Eingabe ist auf 10 Nutzer beschränkt"
+            "userInvalidNotice": "Gib eine:n gültige:n Nutzer:in ein",
+            "usersExcessiveNotice": "Tut uns Leid, aber die Eingabe ist auf 10 Nutzer:innen beschränkt"
         },
         "details": {
             "title": "Chat Einzelheiten",
@@ -108,9 +108,6 @@
         "tab": {
             "messages": "Nachrichten",
             "groups": "Gruppen"
-        },
-        "banner": {
-            "syncing": "Synchronisieren…"
         },
         "title": "Chats"
     }
