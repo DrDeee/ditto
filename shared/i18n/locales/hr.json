@@ -11,10 +11,104 @@
             "usernameOrMatrixIdInputLabel": "Korisničko ime ili ID Matrix",
             "title": "Dobrodošao natrag!",
             "missingPasswordError": "Nedostaje lozinka",
-            "missingUsernameError": "Nedostaje korisničko ime"
+            "missingUsernameError": "Nedostaje korisničko ime",
+            "invalidHomeserverError": "Čini se da ovo nije matrični kućni poslužitelj",
+            "unknownTokenError": "Token više nije valjan. Sigurno smo bili isključeni.",
+            "noStoredCredentialsError": "Dogodila se neočekivana pogreška. Molim te pokušaj ponovno",
+            "invalidUsernameError": "U ID-u matrice može biti samo jedno dvotočka (:)",
+            "noResponseError": "Navedeni kućni poslužitelj nije matrični poslužitelj Matrix ili je nedostupan",
+            "unknownError": "Došlo je do nepoznate pogreške na poslužitelju kuće",
+            "limitExceededError": "Previše zahtjeva. Pokušajte ponovo za nekoliko minuta.",
+            "userDeactivatedError": "Ovaj je korisnik deaktiviran. Molimo kontaktirajte svog kućnog poslužitelja",
+            "forbiddenError": "Pogrešno korisničko ime / lozinka ili početni poslužitelj",
+            "somethingWrongError": "Izgleda da je nešto pošlo po zlu:\n\n{{errorText}}\n\n Pokušajte ponovo!",
+            "loginButtonLabel": "Prijaviti se"
         },
         "landing": {
             "loginButtonLabel": "Prijaviti se"
         }
+    },
+    "newChat": {
+        "title": "Novi razgovor",
+        "details": {
+            "createChatButtonLabel": "Stvori razgovor",
+            "privateDescription": "Privatni razgovor otvoren je samo za one koje pozovete.",
+            "privateTitle": "Privatna",
+            "chatNameInputPlaceholder": "Pr. Moja sjajna mjesto",
+            "chatNameInputLabel": "Naziv chata (nije obavezno)",
+            "title": "Pojedinosti o chatu"
+        },
+        "userSearch": {
+            "usersExcessiveNotice": "Žao nam je, možete unijeti najviše 10 korisnika",
+            "userInvalidNotice": "Unesite valjanog korisnika",
+            "usersInputPlaceholder": "S kim želite razgovarati?"
+        }
+    },
+    "messages": {
+        "content": {
+            "chatSettingsChanged": "{{sender}} je promijenio postavke razgovor",
+            "chatDescriptionChanged": "{{sender}} je promijenio opis razgovor",
+            "chatAvatarChanged": "{{sender}} je promijenio avatar razgovora",
+            "chatNameChanged": "{{sender}} promijenio je naziv razgovora u \"{{name}}\"",
+            "thirdPartyInvite": "{{sender}} je poslao pozivnicu treće strane",
+            "stickersNotSupport": "Ditto još ne podržava naljepnice",
+            "eventRedacted": "Ovaj događaj je redigovan",
+            "typeNotSupport": "Ditto još ne podržava tip \"{{type}}\"",
+            "videoFilesNotSupport": "Ditto još ne podržava video datoteke",
+            "audioNotSupport": "Ditto još ne podržava audio datoteke",
+            "fileSharingNotSupport": "Ditto još ne podržava dijeljenje datoteka",
+            "locationSharingNotSupport": "Ditto još ne podržava dijeljenje lokacije",
+            "encryptNotSupport": "Ditto još ne podržava šifrirane poruke",
+            "chatCreated": "{{sender}} je stvorio razgovor\nUra!",
+            "memberDisplayNameChanged": "{{prevSender}} promijenili su ime u {{newSender}}",
+            "memberAvatarChanged": "{{sender}} je promijenio avatar",
+            "memberAvatarRemoved": "{{sender}} je uklonio svoj avatar",
+            "membershipNotSupport": "Ditto još ne podržava članstvo \"{{membership}}\"",
+            "memberLeft": "{{sender}} je napustio razgovor",
+            "memberJoined": "{{sender}} pridružio se chatu",
+            "memberInvited": "{{sender}} je pozvao korisnika {{user}} da se pridruži chatu",
+            "imageSent": "{{sender}} je poslao sliku",
+            "contentNotUploaded": "Datoteka se ne može prenijeti",
+            "typing": "{{name}} piše …",
+            "groupTyping": "{{user1}} i još {{others}} osobe pišu …"
+        },
+        "composer": {
+            "placeholder": "Upišite poruku …"
+        }
+    },
+    "home": {
+        "tab": {
+            "groups": "Grupe",
+            "messages": "Poruke"
+        },
+        "title": "Razgovori"
+    },
+    "settings": {
+        "logoutButtonLabel": "Odjavite se",
+        "links": {
+            "reportProblemLinkLabel": "Prijavi problem",
+            "requestFeatureLinkLabel": "Zatražite značajku",
+            "privacyPolicyLinkLabel": "Pravila o privatnosti",
+            "websiteLinkLabel": "Web stranica",
+            "title": "Veze"
+        },
+        "privacy": {
+            "errorReportingDesc": "Omogućite slanje izvješća o programskim pogreškama programeru",
+            "errorReporting": "Izvješćivanje o pogreškama",
+            "title": "Privatnost"
+        },
+        "appearance": {
+            "language": "Jezik",
+            "darkMode": "Tamni način rada",
+            "title": "Izgled"
+        },
+        "versionLabel": "{{app}} Verzija",
+        "androidOnlyDescription": "Samo Android (za sada!)",
+        "notificationsEnabledLabel": "Omogući obavijesti",
+        "displayNameInputLabel": "Ime za prikaz",
+        "displayNameInputPlaceholder": "Postavite naziv za prikaz",
+        "title": "Postavke",
+        "chooseLanguage": "Odaberite jezik",
+        "chooseAvatarLabel": "Odaberite avatar"
     }
 }
