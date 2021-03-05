@@ -73,5 +73,19 @@
     "newChat.details.createChatButtonLabel": "Créer une discussion",
     "home.tab.messages": "Messages",
     "home.tab.groups": "Groupes",
-    "home.banner.syncing": "Synchronisation…"
+    "home": {
+        "title": "Discussions"
+    },
+    "settings": {
+        "privacy": {
+            "errorReporting": "Report d'erreur",
+            "title": "Confidentialité"
+        },
+        "appearance": {
+            "language": "Langue",
+            "darkMode": "Mode sombre",
+            "title": "Apparence"
+        },
+        "chooseLanguage": "Choisissez une langue"
+    }
 }
