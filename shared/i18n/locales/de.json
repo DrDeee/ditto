@@ -10,7 +10,7 @@
             "usernameOrMatrixIdInputLabel": "Benutzername oder Matrix Identität",
             "usernameOrMatrixIdInputPlaceholder": "Wer bist du?",
             "passwordInputLabel": "Passwort",
-            "passwordInputPlaceholder": "Pst! Nicht mitteilen",
+            "passwordInputPlaceholder": "Psst! Nicht weitersagen",
             "homeserverInputLabel": "Heimserver",
             "homeserverInputPlaceholder": "Heimserver",
             "basicLabel": "Allgemein",
@@ -18,14 +18,14 @@
             "loginButtonLabel": "Anmelden",
             "somethingWrongError": "Etwas ist schief gelaufen: \n\n{{errorText}}\n\n Probier es nochmal!",
             "forbiddenError": "Benutzername/Passwort oder Heimserver falsch",
-            "userDeactivatedError": "Diese:r Nutzer:in wurde deaktiviert. Bitte deinen Heimserver kontaktieren",
+            "userDeactivatedError": "Dieser Nutzer wurde deaktiviert. Bitte deinen Heimserver kontaktieren",
             "limitExceededError": "Zu viele Abfragen. Warte einige Minuten vor dem nächsten Versuch.",
             "unknownError": "Ein unbekannter Fehler ist auf den Heimserver aufgetreten",
-            "noResponseError": "Der angegebene Heimserver ist entweder kein Matrix Heimserver oder gerade nicht erreichbar",
-            "invalidUsernameError": "Die Matrix Benutzeridentität darf nur einen Doppelpunkt (:) enthalten",
+            "noResponseError": "Der angegebene Heimserver ist entweder kein Matrix-Heimserver oder gerade nicht erreichbar",
+            "invalidUsernameError": "Die Matrix-Benutzeridentität darf nur einen Doppelpunkt (:) enthalten",
             "noStoredCredentialsError": "Es ist ein unbekannter Fehler aufgetreten. Bitte probier es nochmal",
             "unknownTokenError": "Das Token ist ungültig. Die Verbindung wurde wahrscheinlich unterbrochen.",
-            "invalidHomeserverError": "Das scheint kein Matrix Heimserver zu sein"
+            "invalidHomeserverError": "Das scheint kein Matrix-Heimserver zu sein"
         }
     },
     "messages": {
@@ -51,12 +51,12 @@
             "chatSettingsChanged": "{{sender}} hat die Einstellungen des Chats geändert",
             "encryptNotSupport": "Ditto unterstützt noch nicht verschlüsselte Nachrichten",
             "locationSharingNotSupport": "Ditto unterstützt noch nicht die Mitteilung des Standorts",
-            "fileSharingNotSupport": "Ditto unterstützt noch nicht Austausch und gemeinsamer Zugriff auf Dateien",
-            "audioNotSupport": "Ditto unterstützt noch nicht Audiodateien",
-            "videoFilesNotSupport": "Ditto unterstützt noch nicht Videodateien",
+            "fileSharingNotSupport": "Ditto unterstützt das Teilen von Dateien noch nicht",
+            "audioNotSupport": "Ditto unterstützt noch keine Audiodateien",
+            "videoFilesNotSupport": "Ditto unterstützt noch keine Videodateien",
             "typeNotSupport": "Ditto unterstützt den Typ \"{{type}}\" noch nicht",
             "eventRedacted": "Diese Veranstaltung wurde ausgeblendet",
-            "stickersNotSupport": "Ditto unterstützt noch nicht Aufkleber",
+            "stickersNotSupport": "Ditto unterstützt noch keine Aufkleber",
             "thirdPartyInvite": "{{sender}} hat eine ThirdParty-Einladung geschickt"
         }
     },
@@ -77,7 +77,7 @@
         },
         "logoutButtonLabel": "Abmelden",
         "privacy": {
-            "errorReportingDesc": "Aktivieren, um Fehlermeldungen an die Entwicklerin zu schicken",
+            "errorReportingDesc": "Aktivieren, um Fehlermeldungen an die Entwickler zu schicken",
             "errorReporting": "Fehler melden",
             "title": "Datenschutz"
         },
@@ -92,13 +92,13 @@
         "title": "Neuer Chat",
         "userSearch": {
             "usersInputPlaceholder": "Mit wem willst du plaudern?",
-            "userInvalidNotice": "Gib eine:n gültige:n Nutzer:in ein",
-            "usersExcessiveNotice": "Tut uns Leid, aber die Eingabe ist auf 10 Nutzer:innen beschränkt"
+            "userInvalidNotice": "Gib einen gültigen Nutzer ein",
+            "usersExcessiveNotice": "Tut uns Leid, aber die Eingabe ist auf 10 Nutzer beschränkt"
         },
         "details": {
-            "title": "Chat Einzelheiten",
+            "title": "Chat-Einzelheiten",
             "chatNameInputLabel": "Chat-Name (optional)",
-            "chatNameInputPlaceholder": "z.B. Mein toller Chatroom",
+            "chatNameInputPlaceholder": "z.B. Mein toller Chatraum",
             "privateTitle": "Privat",
             "privateDescription": "Ein privater Chat darf nur mit Einladung betreten werden.",
             "createChatButtonLabel": "Chat erstellen"
