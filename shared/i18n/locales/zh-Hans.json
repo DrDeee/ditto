@@ -13,18 +13,18 @@
             "passwordInputPlaceholder": "嘘 不要说出去",
             "homeserverInputLabel": "服务器",
             "homeserverInputPlaceholder": "服务器地址",
-            "basicLabel": "基础资料",
-            "advancedLabel": "高级设置",
+            "basicLabel": "基础",
+            "advancedLabel": "高级",
             "loginButtonLabel": "登录",
-            "somethingWrongError": "出现错误：\n\n{{errorText}}\n\n 再试一次！",
+            "somethingWrongError": "发生了一些错误：\n\n{{errorText}}\n\n 再试一次！",
             "forbiddenError": "用户名或密码或服务器错误",
             "userDeactivatedError": "该用户已被停用，请联系您的服务器",
             "limitExceededError": "请求过于频繁，请稍后再试。",
             "unknownError": "服务器出现了未知错误",
             "noResponseError": "您输入的可能不是 Matrix 服务器，也可能无法访问该服务器",
             "invalidUsernameError": "matrix 用户 id 里只能出现一个冒号（:）",
-            "noStoredCredentialsError": "发生意外的错误。请再试一次",
-            "unknownTokenError": "令牌失效了，我们已经断开连接了。",
+            "noStoredCredentialsError": "发生了意外错误。请再试一次",
+            "unknownTokenError": "令牌失效了，连接已经断开。",
             "invalidHomeserverError": "这似乎不是一个 matrix 服务器"
         }
     },
@@ -33,7 +33,7 @@
             "placeholder": "输入一条消息…"
         },
         "content": {
-            "groupTyping": "{{user1}}和其他 {{others}} 位用户正在输入…",
+            "groupTyping": "{{user1}} 和其他 {{others}} 位用户正在输入…",
             "typing": "{{name}} 正在输入…",
             "contentNotUploaded": "无法上传该文件",
             "imageSent": "{{sender}} 发送了一张图片",
@@ -44,8 +44,8 @@
             "memberAvatarRemoved": "{{sender}} 删除了头像",
             "memberAvatarChanged": "{{sender}} 修改了头像",
             "memberDisplayNameChanged": "{{prevSender}} 修改了昵称为 {{newSender}}",
-            "chatCreated": "{{sender}} 创建了聊天\nHooray！",
-            "chatNameChanged": "{{sender}} 修改了聊天室名称为 \"{{name}}\"",
+            "chatCreated": "{{sender}} 创建了聊天\n耶！",
+            "chatNameChanged": "{{sender}} 将聊天室名称修改为 \"{{name}}\"",
             "chatAvatarChanged": "{{sender}} 修改了聊天室头像",
             "chatDescriptionChanged": "{{sender}} 修改了聊天介绍",
             "chatSettingsChanged": "{{sender}} 修改了聊天设置",
@@ -66,7 +66,7 @@
         "displayNameInputPlaceholder": "设置昵称",
         "displayNameInputLabel": "昵称",
         "notificationsEnabledLabel": "启用通知",
-        "androidOnlyDescription": "目前仅适用于安卓",
+        "androidOnlyDescription": "目前仅适用于 Android",
         "versionLabel": "{{app}} 版本",
         "links": {
             "title": "链接",
@@ -75,13 +75,24 @@
             "requestFeatureLinkLabel": "请求新功能",
             "reportProblemLinkLabel": "报告故障"
         },
-        "logoutButtonLabel": "退出"
+        "logoutButtonLabel": "退出",
+        "privacy": {
+            "errorReportingDesc": "启用以向开发者发送问题报告",
+            "errorReporting": "错误报告",
+            "title": "隐私"
+        },
+        "appearance": {
+            "language": "语言",
+            "darkMode": "暗色模式",
+            "title": "外观"
+        },
+        "chooseLanguage": "选择语言"
     },
     "newChat": {
         "title": "新建聊天",
         "userSearch": {
             "usersInputPlaceholder": "您想跟谁聊天？",
-            "userInvalidNotice": "请输入一位合法的用户",
+            "userInvalidNotice": "请输入有效的用户",
             "usersExcessiveNotice": "抱歉，您最多只能输入 10 位用户"
         },
         "details": {
@@ -89,14 +100,15 @@
             "chatNameInputLabel": "聊天室名字（可选）",
             "chatNameInputPlaceholder": "例如：我的聊天室",
             "privateTitle": "隐私",
-            "privateDescription": "私人的聊天仅对您邀请的用户开放。",
+            "privateDescription": "私人聊天仅对您邀请的用户开放。",
             "createChatButtonLabel": "创建聊天"
         }
     },
     "home": {
         "tab": {
             "messages": "消息",
-            "groups": "群聊"
-        }
+            "groups": "群组"
+        },
+        "title": "聊天"
     }
 }
