@@ -12,7 +12,6 @@
     "bi": "npx react-native bundle --entry-file=index.js --platform=ios --dev=false --bundle-output ios/main.jsbundle --assets-dest=ios",
     "web": "cd web && webpack-dev-server",
     "build:web": "cd web && webpack",
-    "postinstall": "sed -i '' '$s/}/,\"browser\":{\"fs\":\"react-native-level-fs\"}}/' node_modules/olm/package.json",
     "beta": "./fastlane/release.sh"
   },
   "dependencies": {
